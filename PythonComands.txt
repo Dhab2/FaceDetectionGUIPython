@@ -13,6 +13,7 @@ pip install opencv-contrib-python==4.13.0.92
 pip uninstall  opencv-python
 
 python -m pip uninstall opencv-contrib-python opencv-python opencv-python-headless -y
+python -m pip uninstall opencv-contrib-python opencv-python 
 
 pip show insightface
 pip show onnxruntime
@@ -27,6 +28,9 @@ python -c "import cv2; print(cv2); print(cv2.__file__); print(cv2.__path__)"
 python Test/test_face.py
 
 python Test/webcam_test.py
+python Test/frmgui.py
+python Test/frmguid.py
+python Test/genderagetk.py
 
 
 

@@ -1,5 +1,39 @@
+Password = Foosiya@123
+
+git stash list
+
+git stash push -m "WIP: my current changes"
+
+git stash -m "optional description here"
+
 # Set global username
 git config --global user.name "Dhab2"
 
 # Set global email
 git config --global user.email "hpfosiya2027@hotmail.com"
+
+ git clone https://github.com/Dhab2/FaceDetectionGUIPython.git
+
+# Add a remote repository
+git remote add origin https://github.com/Dhab2/PythonFaceDetection.git
+git remote add origin https://github.com/Dhab2/FaceDetectionGUIPython.git
+git remote set-url origin https://github.com/Dhab2/FaceDetectionGUIPython.git
+# Push changes to the remote repository
+git push -u origin main
+git push -u origin master
+
+# Commit the changes
+git commit -m "tk python Age Gender Detection"
+
+# Add changes to the staging area
+git add gitComands.txt
+git add PythonComands.txt
+git add requiredpac.txt
+git add requirementl.txt
+git add requirements.txt
+
+git add Test/frmgui.py
+git add Test/frmguid.py
+git add Test/webcam_test.py
+git add Test/test_face.py
+git add Test/genderagetk.py
