@@ -1,0 +1,44 @@
+python -m venv .fastapvenv
+python -m venv .computefastApi
+.computefastApi\Scripts\activate
+python -m pip install --upgrade pip
+pip install -r requirementl.txt
+pip list
+python --version
+python -m pip show fastapi
+pip freeze > requirements.txt
+
+pip uninstall opencv-python -y
+pip install opencv-contrib-python==4.13.0.92
+pip uninstall  opencv-python
+
+python -m pip uninstall opencv-contrib-python opencv-python opencv-python-headless -y
+
+pip show insightface
+pip show onnxruntime
+pip show deepface
+pip show tensorflow
+pip show numpy
+
+python -c "import cv2, numpy, onnxruntime, insightface, deepface, tensorflow; print('All Imports OK')"
+python -c "from insightface.app import FaceAnalysis; print('FaceAnalysis OK')"
+python -c "import cv2; print(cv2); print(cv2.__file__); print(cv2.__path__)"
+
+python Test/test_face.py
+
+python Test/webcam_test.py
+
+
+
+
+
+
+
+
+
+
+
+
+https://medium.com/@samakan061/fastapi-opencv-a-comprehensive-guide-to-real-time-face-detection-c12779295f16
+
+https://github.com/informramiz/Face-Detection-OpenCV

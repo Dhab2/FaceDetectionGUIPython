@@ -1,0 +1,36 @@
+#Fast Api
+fastapi==0.141.1
+uvicorn[standard]==0.52.1
+python-multipart==0.0.20
+python-dotenv==1.2.2
+
+#Computer vision
+opencv-contrib-python==4.13.0.92
+numpy==2.3.4
+pillow==11.3.0
+scipy==1.16.3
+scikit-image==0.25.2
+
+#FaceDetection
+insightface==1.0.1
+onnx==1.18.0
+onnxruntime==1.22.0
+
+#emotion Face Analysis
+deepface==0.0.100
+
+#backend for deebface
+tensorflow==2.21.0
+tf_keras==2.21.0
+
+#data / Utilities
+pandas==3.0.5
+scikit-learn==1.7.1
+requests==2.32.5
+tqdm==4.67.1
+gdown==5.2.0
+
+
+
+
+
